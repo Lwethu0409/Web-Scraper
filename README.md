@@ -5,7 +5,7 @@ A cloud-integrated web scraping project developed as part of the Praesignis AWS 
    * Fetches raw HTML efficiently from static websites (e.g., [http://quotes.toscrape.com/](http://quotes.toscrape.com/)).
    * Parses elements to extract text, authors, and associated tags.
  * *Part 2: Dynamic Scraping (Selenium)*
-   * Handles JavaScript-rendered web pages and dynamic content loading (e.g., [http://quotes.toscrape.com/js/](http://quotes.toscrape.com/js/)).
+   * Handles JavaScript-rendered web pages and dynamic content loading (e.g., [https://www.scrapethissite.com/pages/ajax-javascript/](https://www.scrapethissite.com/pages/ajax-javascript/)).
    * Automates browser actions and explicit wait times for elements to render.
  * *Cloud Persistence (AWS DynamoDB)*
    * Connects securely using boto3.
