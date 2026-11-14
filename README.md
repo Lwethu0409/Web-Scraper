@@ -13,7 +13,7 @@ A cloud-integrated web scraping project developed as part of the Praesignis AWS 
 ## Repository Structure
 text
 ├── scrapper.py        # Part 1: Static scraper using Requests and BeautifulSoup
-├── dynamic_scraper.py       # Part 2: Dynamic browser scraper using Selenium
+├── dynamic_scrapper.py       # Part 2: Dynamic browser scraper using Selenium
 └── README.md                 # Project documentation
 
 
@@ -47,7 +47,7 @@ pip install requests beautifulsoup4 boto3 selenium
  1. Update the WebDriver executable path in the script to match your local environment (e.g., C:\WebDriver\msedgedriver.exe).
  2. Execute the script:
    bash
-   python dynamic_scraper.py
+   python dynamic_scrapper.py
    
    
 ##  Verification
